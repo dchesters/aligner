@@ -17,5 +17,5 @@
 # 
 # 	The single output file is tabular format Blast result. 
 # 	Finally, using the Blast result and the file of queries, pairwise NW alignment is conducted:
-# 	perl ~/usr_scripts/aligner.pl -blast_results BlastOUT -references processed_profile_alignment -subject processed_queries -outfile alignerOUT -delete_short 475 -gapopen 20.0 -gapextend 0.5 -endweight Y
+# 	perl aligner.pl -blast_results BlastOUT -references processed_profile_alignment -subject processed_queries -outfile alignerOUT -delete_short 475 -gapopen 20.0 -gapextend 0.5 -endweight Y
 # 
